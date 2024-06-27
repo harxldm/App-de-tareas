@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+html, body {
+  color: white;
+  background-color: #517E81;
+  font-family: sans-serif;
+  margin-top: 40px;
+
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-titulo {
+  width: 100%;
+  margin:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1{
+  height: 20px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 15px 0;
+}
+h2 {
+  color:black;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Tareas-lista-principal {
+  width: 600px;
+  min-height: 500px;
+  background-color: #D9B8A1 ;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+}
